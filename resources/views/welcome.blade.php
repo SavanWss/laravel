@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="{{asset('landing/css/style.css')}}" />
+    <link rel="stylesheet" href="{{asset('public/landing//css/style.css')}}" />
     <title>Talk To Toppers</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -37,7 +37,7 @@
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-white">
     <div class="container">
-        <a class="navbar-brand" href="#"><img src="{{asset('landing/img/logo.png')}}" alt="" /></a>
+        <a class="navbar-brand" href="#"><img src="{{asset('public/landing//img/logo.png')}}" alt="" /></a>
         <button
             class="navbar-toggler"
             type="button"
@@ -58,16 +58,16 @@
                 <div class="socialIcon">
                     <ul>
                         <li>
-                            <a href="https://www.linkedin.com/company/talk-to-toppers-linkedin/"><img src="{{asset('landing/img/linkdin.svg')}}" alt="" /></a>
+                            <a href="https://www.linkedin.com/company/talk-to-toppers-linkedin/"><img src="{{asset('public/landing//img/linkdin.svg')}}" alt="" /></a>
                         </li>
                         <li>
-                            <a href="https://www.facebook.com/profile.php?id=100088635057112"><img src="{{asset('landing/img/faceboook.svg')}}" alt="" /></a>
+                            <a href="https://www.facebook.com/profile.php?id=100088635057112"><img src="{{asset('public/landing//img/faceboook.svg')}}" alt="" /></a>
                         </li>
                         <li>
-                            <a href="https://www.instagram.com/talktotoppers/"><img src="{{asset('landing/img/instagram.svg')}}" alt="" /></a>
+                            <a href="https://www.instagram.com/talktotoppers/"><img src="{{asset('public/landing//img/instagram.svg')}}" alt="" /></a>
                         </li>
                         <li>
-                            <a href="https://www.youtube.com/channel/UC2tH_Yb2GZNO5weWnWuYbAQ"><img src="{{asset('landing/img/twitter.svg')}}" alt="" /></a>
+                            <a href="https://www.youtube.com/channel/UC2tH_Yb2GZNO5weWnWuYbAQ"><img src="{{asset('public/landing//img/twitter.svg')}}" alt="" /></a>
                         </li>
                     </ul>
                 </div>
@@ -83,7 +83,7 @@
 <section class="topSection">
     <div class="studytPart d-flex justify-content-between hero position-relative">
         <div class="boyImage">
-            <img src="{{asset('landing/img/boy1.svg')}}" alt="boyImage" />
+            <img src="{{asset('public/landing//img/boy1.svg')}}" alt="boyImage" />
         </div>
         <div
             class="text-center justify-content-center d-flex flex-column position-relative herocontent"
@@ -94,7 +94,7 @@
                 Home with <span class="highlightText">Expert</span>
             </h1>
             <img
-                src="{{asset('landing/img/pin.svg')}}"
+                src="{{asset('public/landing//img/pin.svg')}}"
                 alt=""
                 class="pinImage position-absolute pe-lg-1"
             />
@@ -142,9 +142,9 @@
             </div>
         </div>
         <div class="girlsImage">
-            <img src="{{asset('landing/img/girl.svg')}}" alt="boyImage" />
+            <img src="{{asset('public/landing//img/girl.svg')}}" alt="boyImage" />
         </div>
-        <img src="{{asset('landing/img/book.svg')}}" class="bookimg" alt="">
+        <img src="{{asset('public/landing//img/book.svg')}}" class="bookimg" alt="">
     </div>
 </section>
 
@@ -188,7 +188,7 @@
                     </p>
                 </div>
                 <div class="label"><p>step 1</p></div>
-                <div class="arrow"><img src="{{asset('landing/img/Arrow 4.svg')}}" alt="" /></div>
+                <div class="arrow"><img src="{{asset('public/landing//img/Arrow 4.svg')}}" alt="" /></div>
             </div>
             <div class="Platformcard position-relative">
                 <div class="Platformimg">
@@ -207,7 +207,7 @@
                     </p>
                 </div>
                 <div class="label1"><p>step 2</p></div>
-                <div class="arrow1"><img src="{{asset('landing/img/Arrow 4.svg')}}" alt="" /></div>
+                <div class="arrow1"><img src="{{asset('public/landing//img/Arrow 4.svg')}}" alt="" /></div>
             </div>
             <div class="Platformcard position-relative">
                 <div class="Platformimg">
@@ -226,7 +226,7 @@
                     </p>
                 </div>
                 <div class="label2"><p>step 3</p></div>
-                <div class="arrow2"><img src="{{asset('landing/img/Arrow 4.svg')}}" alt="" /></div>
+                <div class="arrow2"><img src="{{asset('public/landing//img/Arrow 4.svg')}}" alt="" /></div>
             </div>
             <div class="Platformcard position-relative">
                 <div class="Platformimg">
@@ -265,21 +265,21 @@
         <div class = "row chooseus">
             <div class = "col-lg-4 col-md-6 col-sm-12">
                 <div class = "common">
-                    <div class = "d-flex align-items-center justify-content-center"><img src="{{asset('landing/img/legit_toppers.svg')}}" alt="Legit Toppers"></div>
+                    <div class = "d-flex align-items-center justify-content-center"><img src="{{asset('public/landing//img/legit_toppers.svg')}}" alt="Legit Toppers"></div>
                     <div class="text-center mt-4"><h1 class = "title1">Legit Toppers</h1></div>
                     <div class="text-center mt-3"><p class = "des">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
                 </div>
             </div>
             <div class = "col-lg-4 col-md-6 col-sm-12">
                 <div class = "common">
-                    <div class = "d-flex align-items-center justify-content-center"><img src="{{asset('landing/img/11_sessions.svg')}}" alt="Legit Toppers"></div>
+                    <div class = "d-flex align-items-center justify-content-center"><img src="{{asset('public/landing//img/11_sessions.svg')}}" alt="Legit Toppers"></div>
                     <div class="text-center mt-4"><h1 class = "title1">1:1 Sessions</h1></div>
                     <div class="text-center mt-3"><p class = "des">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
                 </div>
             </div>
             <div class = "col-lg-4 col-md-6 col-sm-12">
                 <div class = "common">
-                    <div class = "d-flex align-items-center justify-content-center"><img src="{{asset('landing/img/personal_study.svg')}}" alt="Legit Toppers"></div>
+                    <div class = "d-flex align-items-center justify-content-center"><img src="{{asset('public/landing//img/personal_study.svg')}}" alt="Legit Toppers"></div>
                     <div class="text-center mt-4"><h1 class = "title1">Personal Study</h1></div>
                     <div class="text-center mt-3"><p class = "des">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
                 </div>
@@ -308,17 +308,17 @@
                     <div class="item">
                         <div class="sliderCard">
                             <div>
-                                <img src="{{asset('landing/img/item1.png')}}" alt="">
+                                <img src="{{asset('public/landing//img/item1.png')}}" alt="">
                             </div>
                             <div class="cardcontent">
                                 <h5>Sameer Ahuja</h5>
                                 <div class="rating">
                                     <div class="starimg">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
                                     </div>
                                     <div>
                                         <p>(4000)</p>
@@ -328,7 +328,7 @@
                                 <p class="textexam">GATE Exam, IIT Physics, Maths, Chemistry</p>
                                 <div class="knowmore">
                                     <p>know more</p>
-                                    <img src="{{asset('landing/img/green arrrow.svg')}}" alt="">
+                                    <img src="{{asset('public/landing//img/green arrrow.svg')}}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -336,17 +336,17 @@
                     <div class="item">
                         <div class="sliderCard">
                             <div>
-                                <img src="{{asset('landing/img/item1.png')}}" alt="">
+                                <img src="{{asset('public/landing//img/item1.png')}}" alt="">
                             </div>
                             <div class="cardcontent">
                                 <h5>Sameer Ahuja</h5>
                                 <div class="rating">
                                     <div class="starimg">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
                                     </div>
                                     <div>
                                         <p>(4000)</p>
@@ -356,7 +356,7 @@
                                 <p class="textexam">GATE Exam, IIT Physics, Maths, Chemistry</p>
                                 <div class="knowmore">
                                     <p>know more</p>
-                                    <img src="{{asset('landing/img/green arrrow.svg')}}" alt="">
+                                    <img src="{{asset('public/landing//img/green arrrow.svg')}}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -364,17 +364,17 @@
                     <div class="item">
                         <div class="sliderCard">
                             <div>
-                                <img src="{{asset('landing/img/item1.png')}}" alt="">
+                                <img src="{{asset('public/landing//img/item1.png')}}" alt="">
                             </div>
                             <div class="cardcontent">
                                 <h5>Sameer Ahuja</h5>
                                 <div class="rating">
                                     <div class="starimg">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
                                     </div>
                                     <div>
                                         <p>(4000)</p>
@@ -384,7 +384,7 @@
                                 <p class="textexam">GATE Exam, IIT Physics, Maths, Chemistry</p>
                                 <div class="knowmore">
                                     <p>know more</p>
-                                    <img src="{{asset('landing/img/green arrrow.svg')}}" alt="">
+                                    <img src="{{asset('public/landing//img/green arrrow.svg')}}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -392,17 +392,17 @@
                     <div class="item">
                         <div class="sliderCard">
                             <div>
-                                 <img src="{{asset('landing/img/item1.png')}}" alt="">
+                                 <img src="{{asset('public/landing//img/item1.png')}}" alt="">
                             </div>
                             <div class="cardcontent">
                                 <h5>Sameer Ahuja</h5>
                                 <div class="rating">
                                     <div class="starimg">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
                                     </div>
                                     <div>
                                         <p>(4000)</p>
@@ -412,7 +412,7 @@
                                 <p class="textexam">GATE Exam, IIT Physics, Maths, Chemistry</p>
                                 <div class="knowmore">
                                     <p>know more</p>
-                                    <img src="{{asset('landing/img/green arrrow.svg')}}" alt="">
+                                    <img src="{{asset('public/landing//img/green arrrow.svg')}}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -420,17 +420,17 @@
                     <div class="item">
                         <div class="sliderCard">
                             <div>
-                                <img src="{{asset('landing/img/item1.png')}}" alt="">
+                                <img src="{{asset('public/landing//img/item1.png')}}" alt="">
                             </div>
                             <div class="cardcontent">
                                 <h5>Sameer Ahuja</h5>
                                 <div class="rating">
                                     <div class="starimg">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
                                     </div>
                                     <div>
                                         <p>(4000)</p>
@@ -440,7 +440,7 @@
                                 <p class="textexam">GATE Exam, IIT Physics, Maths, Chemistry</p>
                                 <div class="knowmore">
                                     <p>know more</p>
-                                    <img src="{{asset('landing/img/green arrrow.svg')}}" alt="">
+                                    <img src="{{asset('public/landing//img/green arrrow.svg')}}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -448,17 +448,17 @@
                     <div class="item">
                         <div class="sliderCard">
                             <div>
-                                <img src="{{asset('landing/img/item1.png')}}" alt="">
+                                <img src="{{asset('public/landing//img/item1.png')}}" alt="">
                             </div>
                             <div class="cardcontent">
                                 <h5>Sameer Ahuja</h5>
                                 <div class="rating">
                                     <div class="starimg">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
                                     </div>
                                     <div>
                                         <p>(4000)</p>
@@ -468,7 +468,7 @@
                                 <p class="textexam">GATE Exam, IIT Physics, Maths, Chemistry</p>
                                 <div class="knowmore">
                                     <p>know more</p>
-                                    <img src="{{asset('landing/img/green arrrow.svg')}}" alt="">
+                                    <img src="{{asset('public/landing//img/green arrrow.svg')}}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -476,17 +476,17 @@
                     <div class="item">
                         <div class="sliderCard">
                             <div>
-                                <img src="{{asset('landing/img/item1.png')}}" alt="">
+                                <img src="{{asset('public/landing//img/item1.png')}}" alt="">
                             </div>
                             <div class="cardcontent">
                                 <h5>Sameer Ahuja</h5>
                                 <div class="rating">
                                     <div class="starimg">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
                                     </div>
                                     <div>
                                         <p>(4000)</p>
@@ -496,7 +496,7 @@
                                 <p class="textexam">GATE Exam, IIT Physics, Maths, Chemistry</p>
                                 <div class="knowmore">
                                     <p>know more</p>
-                                    <img src="{{asset('landing/img/green arrrow.svg')}}" alt="">
+                                    <img src="{{asset('public/landing//img/green arrrow.svg')}}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -504,17 +504,17 @@
                     <div class="item">
                         <div class="sliderCard">
                             <div>
-                                <img src="{{asset('landing/img/item1.png')}}" alt="">
+                                <img src="{{asset('public/landing//img/item1.png')}}" alt="">
                             </div>
                             <div class="cardcontent">
                                 <h5>Sameer Ahuja</h5>
                                 <div class="rating">
                                     <div class="starimg">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
                                     </div>
                                     <div>
                                         <p>(4000)</p>
@@ -524,7 +524,7 @@
                                 <p class="textexam">GATE Exam, IIT Physics, Maths, Chemistry</p>
                                 <div class="knowmore">
                                     <p>know more</p>
-                                    <img src="{{asset('landing/img/green arrrow.svg')}}" alt="">
+                                    <img src="{{asset('public/landing//img/green arrrow.svg')}}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -532,17 +532,17 @@
                     <div class="item">
                         <div class="sliderCard">
                             <div>
-                                <img src="{{asset('landing/img/item1.png')}}" alt="">
+                                <img src="{{asset('public/landing//img/item1.png')}}" alt="">
                             </div>
                             <div class="cardcontent">
                                 <h5>Sameer Ahuja</h5>
                                 <div class="rating">
                                     <div class="starimg">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
                                     </div>
                                     <div>
                                         <p>(4000)</p>
@@ -552,7 +552,7 @@
                                 <p class="textexam">GATE Exam, IIT Physics, Maths, Chemistry</p>
                                 <div class="knowmore">
                                     <p>know more</p>
-                                    <img src="{{asset('landing/img/green arrrow.svg')}}" alt="">
+                                    <img src="{{asset('public/landing//img/green arrrow.svg')}}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -560,17 +560,17 @@
                     <div class="item">
                         <div class="sliderCard">
                             <div>
-                                <img src="{{asset('landing/img/item1.png')}}" alt="">
+                                <img src="{{asset('public/landing//img/item1.png')}}" alt="">
                             </div>
                             <div class="cardcontent">
                                 <h5>Sameer Ahuja</h5>
                                 <div class="rating">
                                     <div class="starimg">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
                                     </div>
                                     <div>
                                         <p>(4000)</p>
@@ -580,7 +580,7 @@
                                 <p class="textexam">GATE Exam, IIT Physics, Maths, Chemistry</p>
                                 <div class="knowmore">
                                     <p>know more</p>
-                                    <img src="{{asset('landing/img/green arrrow.svg')}}" alt="">
+                                    <img src="{{asset('public/landing//img/green arrrow.svg')}}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -588,17 +588,17 @@
                     <div class="item">
                         <div class="sliderCard">
                             <div>
-                                <img src="{{asset('landing/img/item1.png')}}" alt="">
+                                <img src="{{asset('public/landing//img/item1.png')}}" alt="">
                             </div>
                             <div class="cardcontent">
                                 <h5>Sameer Ahuja</h5>
                                 <div class="rating">
                                     <div class="starimg">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                        <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                        <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
                                     </div>
                                     <div>
                                         <p>(4000)</p>
@@ -608,24 +608,24 @@
                                 <p class="textexam">GATE Exam, IIT Physics, Maths, Chemistry</p>
                                 <div class="knowmore">
                                     <p>know more</p>
-                                    <img src="{{asset('landing/img/green arrrow.svg')}}" alt="">
+                                    <img src="{{asset('public/landing//img/green arrrow.svg')}}" alt="">
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="sliderCard">
                         <div>
-                            <img src="{{asset('landing/img/item1.png')}}" alt="">
+                            <img src="{{asset('public/landing//img/item1.png')}}" alt="">
                         </div>
                         <div class="cardcontent">
                             <h5>Sameer Ahuja</h5>
                             <div class="rating">
                                 <div class="starimg">
-                                    <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                    <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                    <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                    <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
-                                    <img src="{{asset('landing/img/Star 1.svg')}}" alt="">
+                                    <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                    <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                    <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                    <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
+                                    <img src="{{asset('public/landing//img/Star 1.svg')}}" alt="">
                                 </div>
                                 <div>
                                     <p>(4000)</p>
@@ -635,7 +635,7 @@
                             <p class="textexam">GATE Exam, IIT Physics, Maths, Chemistry</p>
                             <div class="knowmore">
                                 <p>know more</p>
-                                <img src="{{asset('landing/img/green arrrow.svg')}}" alt="">
+                                <img src="{{asset('public/landing//img/green arrrow.svg')}}" alt="">
                             </div>
                         </div>
                     </div>
@@ -659,28 +659,28 @@
             <div class = "row ToppersContent m-3">
                 <div class = "col-lg-3 col-md-6 col-sm-12 ToppersContentcard">
                     <div class = "commonfisrt">
-                        <div class = "d-flex align-items-center justify-content-center"><img src="{{asset('landing/img/1.svg')}}" alt="Legit Toppers"></div>
+                        <div class = "d-flex align-items-center justify-content-center"><img src="{{asset('public/landing//img/1.svg')}}" alt="Legit Toppers"></div>
                         <div class="text-center mt-4"><h1 class ="Flexible">Flexible Classes</h1></div>
                         <div class="text-center mt-3"><p class = "des">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
                     </div>
                 </div>
                 <div class = "col-lg-3 col-md-6 col-sm-12 ToppersContentcard">
                     <div class = "common1">
-                        <div class = "d-flex align-items-center justify-content-center"><img src="{{asset('landing/img/2.svg')}}" alt="Legit Toppers"></div>
+                        <div class = "d-flex align-items-center justify-content-center"><img src="{{asset('public/landing//img/2.svg')}}" alt="Legit Toppers"></div>
                         <div class="text-center mt-4"><h1 class ="Monetizations">Monetizations</h1></div>
                         <div class="text-center mt-3"><p class = "des">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
                     </div>
                 </div>
                 <div class = "col-lg-3 col-md-6 col-sm-12 ToppersContentcard">
                     <div class = "common1">
-                        <div class = "d-flex align-items-center justify-content-center"><img src="{{asset('landing/img/3.svg')}}" alt="Legit Toppers"></div>
+                        <div class = "d-flex align-items-center justify-content-center"><img src="{{asset('public/landing//img/3.svg')}}" alt="Legit Toppers"></div>
                         <div class="text-center mt-4"><h1 class ="Easy">Easy User Interface</h1></div>
                         <div class="text-center mt-3"><p class = "des">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
                     </div>
                 </div>
                 <div class = "col-lg-3 col-md-6 col-sm-12 ToppersContentcard">
                     <div class = "common1">
-                        <div class = "d-flex align-items-center justify-content-center"><img src="{{asset('landing/img/4.svg')}}" alt="Legit Toppers"></div>
+                        <div class = "d-flex align-items-center justify-content-center"><img src="{{asset('public/landing//img/4.svg')}}" alt="Legit Toppers"></div>
                         <div class="text-center mt-4"><h1 class ="Security">100% Security</h1></div>
                         <div class="text-center mt-3"><p class = "des">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
                     </div>
@@ -705,7 +705,7 @@
             <div class="col-xl-3  col-lg-6 col-md-6 col-sm-12 p-0 TestimonialsCard">
                 <div class="Testimonials1">
                     <div class="d-flex align-items-center justify-content-center">
-                        <img src="{{asset('landing/img/Prerna.png')}}" alt="Legit Toppers" />
+                        <img src="{{asset('public/landing//img/Prerna.png')}}" alt="Legit Toppers" />
                     </div>
                     <div class="text-center mt-4"><h1 class="title2">Prerna</h1></div>
                     <div class="line">
@@ -722,7 +722,7 @@
             <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 p-0 TestimonialsCard">
                 <div class="Testimonials">
                     <div class="d-flex align-items-center justify-content-center">
-                        <img src="{{asset('landing/img/Kuldeep.png')}}" alt="Legit Toppers" />
+                        <img src="{{asset('public/landing//img/Kuldeep.png')}}" alt="Legit Toppers" />
                     </div>
                     <div class="text-center mt-4">
                         <h1 class="title2">Kuldeep</h1>
@@ -741,7 +741,7 @@
             <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 p-0 TestimonialsCard">
                 <div class="Testimonials">
                     <div class="d-flex align-items-center justify-content-center">
-                        <img src="{{asset('landing/img/Kuldeep.png')}}" alt="Legit Toppers" />
+                        <img src="{{asset('public/landing//img/Kuldeep.png')}}" alt="Legit Toppers" />
                     </div>
                     <div class="text-center mt-4">
                         <h1 class="title2">Kuldeep</h1>
@@ -760,7 +760,7 @@
             <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 p-0 TestimonialsCard">
                 <div class="Testimonials">
                     <div class="d-flex align-items-center justify-content-center">
-                        <img src="{{asset('landing/img/Shweta.png')}}" alt="Legit Toppers" />
+                        <img src="{{asset('public/landing//img/Shweta.png')}}" alt="Legit Toppers" />
                     </div>
                     <div class="text-center mt-4"><h1 class="title2">Shweta</h1></div>
                     <div class="line">
@@ -875,7 +875,7 @@
     <div class="container">
         <div class="row footer">
             <div class="col-lg-5 col-md-4 col-sm-12 footerlogoSection">
-                <img src="{{asset('landing/img/logo.png')}}" alt="footerlogo" />
+                <img src="{{asset('public/landing//img/logo.png')}}" alt="footerlogo" />
                 <p class="footertext">
                     Love this platform! Does exactly what it is supposed to do and so
                     far without any real issues. i am learning a lot from the tutors
@@ -884,16 +884,16 @@
                 <div class="socialIcon">
                     <ul>
                         <li>
-                            <a href="https://www.linkedin.com/company/talk-to-toppers-linkedin/"><img src="{{asset('landing/img/plinkldn.svg')}}" alt="" /></a>
+                            <a href="https://www.linkedin.com/company/talk-to-toppers-linkedin/"><img src="{{asset('public/landing//img/plinkldn.svg')}}" alt="" /></a>
                         </li>
                         <li>
-                            <a href="https://www.facebook.com/profile.php?id=100088635057112"><img src="{{asset('landing/img/pfacebook.svg')}}" alt="" /></a>
+                            <a href="https://www.facebook.com/profile.php?id=100088635057112"><img src="{{asset('public/landing//img/pfacebook.svg')}}" alt="" /></a>
                         </li>
                         <li>
-                            <a href="https://www.instagram.com/talktotoppers/"><img src="{{asset('landing/img/pinstagram.svg')}}" alt="" /></a>
+                            <a href="https://www.instagram.com/talktotoppers/"><img src="{{asset('public/landing//img/pinstagram.svg')}}" alt="" /></a>
                         </li>
                         <li>
-                            <a href="https://www.youtube.com/channel/UC2tH_Yb2GZNO5weWnWuYbAQ"><img src="{{asset('landing/img/purpleTwitter.svg')}}" alt="" /></a>
+                            <a href="https://www.youtube.com/channel/UC2tH_Yb2GZNO5weWnWuYbAQ"><img src="{{asset('public/landing//img/purpleTwitter.svg')}}" alt="" /></a>
                         </li>
                     </ul>
                 </div>
